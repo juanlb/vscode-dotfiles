@@ -4,7 +4,7 @@
 export PATH=/usr/lib/x86_64-linux-gnu/ImageMagick-6.8.9/bin-Q16:/opt/node-v6.11.4-linux-x64/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/juanlb/.oh-my-zsh
+  export ZSH=/home/$USER/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -99,7 +99,7 @@ alias docker-stats='docker stats $(docker ps --format={{.Names}})'
 unsetopt share_history
 
 
-export YVM_DIR=/home/juanlb/.yvm
+export YVM_DIR=/home/$USER/.yvm
 [ -r $YVM_DIR/yvm.sh ] && . $YVM_DIR/yvm.sh
 
 export BUNDLER_EDITOR=/usr/bin/code
